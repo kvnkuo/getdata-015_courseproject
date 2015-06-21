@@ -1,3 +1,4 @@
+## README
 The primary goal of this project is to create a tidy data set from an interesting experiment.
 
 This project uses the "Human Activity Recognition Using Smartphones Dataset" from www.smartlab.ws.
@@ -8,13 +9,11 @@ Since the data are split into the test and the training sets, we have to merger 
 We use grep to filter out those features we want from the feature list. Use the selected features as indices to select those measurements we want from the full data set to build a trimmed data set. For each variable(or feature), we use ddply to summarize the data by both subject and activity label to find the average of certain variable. Join the summarized results by
 by both subject and activity label to form the target data set. It is the tidy data set with the average of each variable for each activity and each subject. 
 
-For each record it is provided:
-======================================
+### For each record it is provided:
 
 - A 68-feature vector with the average of each variable for each activity and each subject, the activity label and identifier of the subject who carried out the experiment.
 
-The project includes the following files:
-=========================================
+### The project includes the following files:
 
 - 'README.md'
 
